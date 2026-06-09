@@ -51,7 +51,7 @@ install.packages("remotes")
 Then install this package:
 
 ```r
-remotes::install_github("YOUR_GITHUB_USERNAME/changepointtool")
+remotes::install_github("leijiaqiqi/changepointtool")
 ```
 
 Replace `YOUR_GITHUB_USERNAME` with the GitHub username that hosts this
