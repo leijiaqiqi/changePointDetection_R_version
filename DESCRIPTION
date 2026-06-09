@@ -1,0 +1,17 @@
+Package: changepointtool
+Type: Package
+Title: Fixed-Segment Change-Point Detection with Gurobi
+Version: 0.1.0
+Authors@R: person("Jiaqi", "Lei", role = c("aut", "cre"))
+Description: Provides a mixed-integer optimization model for fixed-segment
+    change-point detection based on segmented empirical cumulative distribution
+    functions. The optimization model is solved with the Gurobi R interface.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 3.6.0)
+Imports:
+    Matrix,
+    gurobi
+SystemRequirements: Gurobi Optimizer and a valid Gurobi license
